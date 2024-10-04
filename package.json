@@ -3,6 +3,11 @@
   "repository": {
     "url": "https://github.com/JonoMacC/componentmodel"
   },
+  "displayName": "Component Model Specification",
+  "description": "Syntax for describing user interface component model.",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
   "categories": [
     "Programming Languages"
   ],
