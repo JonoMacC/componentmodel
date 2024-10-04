@@ -10,7 +10,9 @@
     },
     {
       "match": "([A-Z_]+):",
-      "name": "constant.language.componentmodel"
+      "captures": {
+        "1": { "name": "constant.language.componentmodel" }
+      }
     },
     {
       "match": "#[0-9A-Fa-f]{3,8}",

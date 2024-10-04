@@ -32,3 +32,7 @@ viewing.
 ### 0.1.0
 
 Initial release of Component Model.
+
+### 0.1.1
+
+Fix highlighting on enums to exclude colon.
