@@ -29,6 +29,6 @@ viewing.
 
 ## Release Notes
 
-### 1.0.0
+### 0.1.0
 
 Initial release of Component Model.
