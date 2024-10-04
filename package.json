@@ -1,0 +1,37 @@
+{
+  "name": "componentmodel",
+  "displayName": "Component Model Specification",
+  "description": "Syntax for describing user interface component model.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "uims",
+        "aliases": [
+          "Component Model",
+          "uims"
+        ],
+        "extensions": [
+          ".txt"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "uims",
+        "scopeName": "source.componentmodel",
+        "path": "./syntaxes/uims.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.1.1"
+  }
+}
