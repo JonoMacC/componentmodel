@@ -1,4 +1,4 @@
-# componentmodel README
+# Component Model
 
 Language configuration for syntax highlighting on component model specifications.
 Component models are plain text files that follow a prescribed structured as
