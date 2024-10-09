@@ -9,7 +9,7 @@
       "name": "entity.name.section.componentmodel"
     },
     {
-      "match": "([A-Z_]+):",
+      "match": "([A-Z_]+)(?=[\\s.:])",
       "captures": {
         "1": { "name": "constant.language.componentmodel" }
       }
@@ -37,6 +37,10 @@
     {
       "match": "\"[^\"]*\"",
       "name": "string.quoted.double.componentmodel"
+    },
+    {
+      "match": "/(\\\\/|[^/])+/",
+      "name": "string.regex.componentmodel"
     }
   ]
 }
