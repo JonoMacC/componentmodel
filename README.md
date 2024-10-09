@@ -49,3 +49,7 @@ Fix highlighting on enums to exclude colon.
 
 Fix highlighting on enums to identify them inside of text.
 Add highlighting for regexes.
+
+### 0.2.1
+
+Add installation instructions to README.
