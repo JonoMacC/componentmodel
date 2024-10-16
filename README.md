@@ -53,3 +53,8 @@ Add highlighting for regexes.
 ### 0.2.1
 
 Add installation instructions to README.
+
+### 0.2.2
+
+Fix highlighting on enums to exclude single-letters. `A` is no longer
+highlighted as a constant.
