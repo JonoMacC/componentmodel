@@ -1,6 +1,7 @@
 {
   "name": "componentmodel",
-  "version": "0.2.2",
+  "version": "0.2.3",
+  "icon": "assets/icon.png",
   "repository": {
     "url": "https://github.com/JonoMacC/componentmodel"
   },

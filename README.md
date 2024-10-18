@@ -58,3 +58,7 @@ Add installation instructions to README.
 
 Fix highlighting on enums to exclude single-letters. `A` is no longer
 highlighted as a constant.
+
+### 0.2.3
+
+Add icon.
