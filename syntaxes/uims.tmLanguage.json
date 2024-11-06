@@ -9,17 +9,21 @@
       "name": "entity.name.section.componentmodel"
     },
     {
-      "match": "([A-Z_]{2,})(?=[\\s.:])",
+      "match": "([A-Z_]{2,})",
       "captures": {
         "1": { "name": "constant.language.componentmodel" }
       }
+    },
+    {
+      "match": "(true|false)",
+      "name": "constant.language.boolean.componentmodel"
     },
     {
       "match": "#[0-9A-Fa-f]{3,8}",
       "name": "constant.other support.constant.color.w3c-standard-color-name.css"
     },
     {
-      "match": "\\b\\d+(?:px)?\\b",
+      "match": "\\b\\d+(?:px|ch|em|%)?",
       "name": "constant.numeric.componentmodel"
     },
     {

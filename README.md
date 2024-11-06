@@ -11,7 +11,7 @@ Provides highlighting for:
 - Parameters: current, background_color
 - Numbers: 1, 100, 0.5
 - Color Hex Codes: #FF, #FFF, #FFFFFF
-- Pixel Values: 10px, 2px, 1000px
+- Unit Values: 10px, 2ch, 5em, 100%
 - Regex: /^[a-zA-Z0-9]$/
 - Enums: NONE, SINGLE, DROP_ALLOWED
 
@@ -62,3 +62,9 @@ highlighted as a constant.
 ### 0.2.3
 
 Add icon.
+
+### 0.2.4
+
+Fix highlighting on enums to highlight wherever they occur.
+Add constant highlights for `ch`, `em`, and `%`
+Add highlights for Booleans
