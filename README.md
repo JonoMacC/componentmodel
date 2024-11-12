@@ -8,10 +8,10 @@ Provides highlighting for:
 
 - Fields: Definitions, Data, State and Signals
 - Signals: FocusIn, Delete, MouseMove
-- Parameters: current, background_color
+- Parameters: current, background_color, x0
 - Numbers: 1, 100, 0.5
-- Color Hex Codes: #FF, #FFF, #FFFFFF
-- Unit Values: 10px, 2ch, 5em, 100%
+- Color Hex Codes: #FF, #FFF, #FFFFFF, 0xFFFFFF
+- Unit Values: 10px, 2ch, 5em, 100%, 500ms
 - Regex: /^[a-zA-Z0-9]$/
 - Enums: NONE, SINGLE, DROP_ALLOWED
 
@@ -37,34 +37,13 @@ To use, set the language in VS Code to "Component Model" for the file you are vi
 
 ## Release Notes
 
-### 0.1.0
-
-Initial release of Component Model.
-
-### 0.1.1
-
-Fix highlighting on enums to exclude colon.
-
-### 0.2.0
-
-Fix highlighting on enums to identify them inside of text.
-Add highlighting for regexes.
-
-### 0.2.1
-
-Add installation instructions to README.
-
-### 0.2.2
-
-Fix highlighting on enums to exclude single-letters. `A` is no longer
-highlighted as a constant.
-
-### 0.2.3
-
-Add icon.
-
-### 0.2.4
-
-Fix highlighting on enums to highlight wherever they occur.
-Add constant highlights for `ch`, `em`, and `%`
-Add highlights for Booleans
+| Version | Description                                                                                                                                                  |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 0.3.0   | Add constant highlights for `h`, `m`, `s`, `ms`. Add highlight support for 0x hex color values. Add highlight support for parameter names containing digits. |
+| 0.2.4   | Fix highlighting on enums to highlight wherever they occur. Add constant highlights for `ch`, `em`, and `%`. Add highlights for Booleans.                    |
+| 0.2.3   | Add icon.                                                                                                                                                    |
+| 0.2.2   | Fix highlighting on enums to exclude single-letters. `A` is no longer highlighted as a constant.                                                             |
+| 0.2.1   | Add installation instructions to README.                                                                                                                     |
+| 0.2.0   | Fix highlighting on enums to identify them inside of text. Add highlighting for regexes.                                                                     |
+| 0.1.1   | Fix highlighting on enums to exclude colon.                                                                                                                  |
+| 0.1.0   | Initial release of Component Model.                                                                                                                          |

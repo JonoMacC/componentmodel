@@ -19,11 +19,11 @@
       "name": "constant.language.boolean.componentmodel"
     },
     {
-      "match": "#[0-9A-Fa-f]{3,8}",
+      "match": "(?:#|0x)[0-9A-Fa-f]{3,8}",
       "name": "constant.other support.constant.color.w3c-standard-color-name.css"
     },
     {
-      "match": "\\b\\d+(?:px|ch|em|%)?",
+      "match": "\\b\\d+(?:\\.\\d+)?(?:px|ch|em|%|h|ms|s|m)?",
       "name": "constant.numeric.componentmodel"
     },
     {
@@ -33,7 +33,7 @@
       }
     },
     {
-      "match": "^\\s{2,}([a-z_]+):",
+      "match": "^\\s{2,}([a-z_][a-z0-9_]*):",
       "captures": {
         "1": { "name": "variable.parameter.componentmodel" }
       }

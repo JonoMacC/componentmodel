@@ -1,6 +1,7 @@
 {
   "name": "componentmodel",
-  "version": "0.2.4",
+  "version": "0.3.0",
+  "publisher": "Spire Trading",
   "icon": "assets/icon.png",
   "repository": {
     "url": "https://github.com/JonoMacC/componentmodel"
