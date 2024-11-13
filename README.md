@@ -39,6 +39,7 @@ To use, set the language in VS Code to "Component Model" for the file you are vi
 
 | Version | Description                                                                                                                                                  |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 0.3.1   | Make boolean highlights case-insensitive. Fix single word lines ending in colon being highlighted as parameter.                                              |
 | 0.3.0   | Add constant highlights for `h`, `m`, `s`, `ms`. Add highlight support for 0x hex color values. Add highlight support for parameter names containing digits. |
 | 0.2.4   | Fix highlighting on enums to highlight wherever they occur. Add constant highlights for `ch`, `em`, and `%`. Add highlights for Booleans.                    |
 | 0.2.3   | Add icon.                                                                                                                                                    |

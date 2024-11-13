@@ -15,7 +15,7 @@
       }
     },
     {
-      "match": "(true|false)",
+      "match": "(?i)(true|false)",
       "name": "constant.language.boolean.componentmodel"
     },
     {
@@ -33,7 +33,7 @@
       }
     },
     {
-      "match": "^\\s{2,}([a-z_][a-z0-9_]*):",
+      "match": "^\\s{2,}([a-z_][a-z0-9_]*):[\\t ]+(?=\\S)",
       "captures": {
         "1": { "name": "variable.parameter.componentmodel" }
       }
