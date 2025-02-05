@@ -33,7 +33,7 @@
       }
     },
     {
-      "match": "^\\s{2,}([a-z_][a-z0-9_]*):[\\t ]+(?=\\S)",
+      "match": "^\\s{2,}([a-z_][a-z0-9_]*):(?:\\s*$|\\s+.*$)",
       "captures": {
         "1": { "name": "variable.parameter.componentmodel" }
       }
