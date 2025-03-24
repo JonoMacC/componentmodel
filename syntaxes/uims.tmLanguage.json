@@ -23,7 +23,7 @@
       "name": "constant.other support.constant.color.w3c-standard-color-name.css"
     },
     {
-      "match": "\\b\\d+(?:\\.\\d+)?(?:px|ch|em|%|h|ms|s|m)?",
+      "match": "(?<!\\w)-?\\d+(?:\\.\\d+)?(?:px|ch|em|%|h|ms|s|m)?",
       "name": "constant.numeric.componentmodel"
     },
     {

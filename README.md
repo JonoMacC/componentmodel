@@ -39,6 +39,7 @@ To use, set the language in VS Code to "Component Model" for the file you are vi
 
 | Version | Description                                                                                                                                                  |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 0.3.3   | Fix minus sign highlights for numbers.                                                                                                                       |
 | 0.3.2   | Fix highlights for parameters with no description.                                                                                                           |
 | 0.3.1   | Make boolean highlights case-insensitive. Fix single word lines ending in colon being highlighted as parameter.                                              |
 | 0.3.0   | Add constant highlights for `h`, `m`, `s`, `ms`. Add highlight support for 0x hex color values. Add highlight support for parameter names containing digits. |
