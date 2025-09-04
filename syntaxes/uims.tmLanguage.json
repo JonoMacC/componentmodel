@@ -15,6 +15,10 @@
       }
     },
     {
+      "match": "(?i)(null)",
+      "name": "constant.language.enum.componentmodel"
+    },
+    {
       "match": "(?i)(true|false)",
       "name": "constant.language.boolean.componentmodel"
     },
@@ -33,7 +37,7 @@
       }
     },
     {
-      "match": "^\\s{2,}([a-z_][a-z0-9_]*):(?:\\s*$|\\s+.*$)",
+      "match": "^\\s{2,}([a-z_][a-z0-9_]*):(?=\\s|$)",
       "captures": {
         "1": { "name": "variable.parameter.componentmodel" }
       }

@@ -1,6 +1,7 @@
 {
   "name": "componentmodel",
-  "version": "0.3.3",
+  "version": "0.3.4",
+  "author": "Jon MacCaull",
   "publisher": "Spire Trading",
   "icon": "assets/icon.png",
   "repository": {
